@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuario</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h2>Regístrate en Teknova</h2>
+    <form>
+        <fieldset>
+            <label>Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+
+            <label>Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo" required><br>
+
+            <label>Contraseña:</label><br>
+            <input type="password" id="clave" name="clave" required><br>
+
+            <label> Repita contraseña</label><br>
+            <input type="password" id="clave" name="clave" required><br>
+
+
+            <label>País de residencia:</label><br>
+            <select id="pais" name="pais">
+                <option>Chile</option>
+                <option>Perú</option>
+                <option>Argentina</option>
+                <option>Colombia</option>
+                <option>Venezuela</option>
+                <option>Uruguay</option>
+                <option>Brasil</option>
+                <option>Paraguay</option>
+                <option>Bolivia</option>
+            </select>
+
+            <br>
+            <label>Fecha de nacimiento:</label><br>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+
+            <br>
+            <label for="gender">Género:</label>
+            <br>
+            <input type="radio" id="gender" name="gender">
+            <label for="Femenino">Femenino</label><br>
+            <input type="radio" id="gender" name="gender">
+            <label for="Masculino">Masculino</label><br>
+            <input type="radio" id="gender" name="gender">
+            <label for="Otro">Otro</label><br>
+
+            <br>
+            <input type="checkbox" id="terminos" name="terminos" required>
+            <label for="terminos">Acepto los términos y condiciones</label>
+            <br>
+            <br>
+            <button type="submit" value="submit">Enviar</button>
+
+    </form>
+</body>
+
+</html>
