@@ -1,0 +1,30 @@
+* {
+    font-family: Lucida Sans Regular;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10%;
+  }
+  
+  th,
+  td {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #674562;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #e1e1e1;
+  }
