@@ -1,2 +1,4 @@
-# html-ejercicios
-Ejercicios html para curso front-end AIEP
+# Ejercicios HTML curso FRONT-END AIEP
+
+Deploy en githubpages:
+https://framciscat.github.io/html-ejercicios/
