@@ -85,7 +85,7 @@ h2 {
   color: #666666;
 }
 
-#row {
+.row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
